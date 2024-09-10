@@ -31,9 +31,9 @@ alert(son + " ning " + daraja + " si " + son_daraja + " ga teng");
 
 var a;
 var chessBord = "";
-a = +prompt("son kiriting");
+a = +prompt("Kataklar sonini kiriting");
 while (isNaN(a) || a == "") {
-  a = +prompt("Iltimos son kiriting");
+  a = +prompt("Iltimos kataklar sonini kiriting");
 }
 for (let i = 0; i < a; i++) {
   for (let j = 0; j < a; j++) {
